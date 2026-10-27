@@ -1,11 +1,11 @@
 """
-Builds golden_hard.csv from the 20-question HARD-tier set.
+Builds golden_dataset.csv from the 20-question HARD-tier set.
 Separate from make_golden_csv.py so your 30-question golden_dataset.csv is untouched.
 """
 
 """
 Run:  python3 make_hard_csv.py
-Output: golden_hard.csv
+Output: golden_dataset.csv
 """
 import csv, json, sqlite3
 from golden_dataset_generator import GOLDEN          # <-- reads the HARD generator
