@@ -1,5 +1,5 @@
 """
-main.py - controls the entire eval flow (ChatOpenRouter version).
+main.py - controls the entire eval flow.
 
 For each model:
   1. load the model (via OpenRouter, through ChatOpenRouter)
