@@ -75,13 +75,7 @@ python -m venv .venv
 pip install langchain-openrouter python-dotenv pandas
 ```
 
-**2. Add your OpenRouter API key** in a `.env` file in the project root:
-
-```
-OPENROUTER_API_KEY=sk-or-...
-```
-
-**3. Run the evaluation:**
+**2. Run the evaluation:**
 
 ```bash
 python main.py
